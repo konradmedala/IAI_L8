@@ -1,0 +1,51 @@
+<nav class="navbar">
+
+</nav>
+<div class="name" style="display: none;">quiz</div>
+<div class="container-fluid">
+  <div class="menu_quiz shadow-lg p-3 mb-5 bg-white rounded">
+    <p>Welcome to the quiz =)</p>
+    <div class="buttons_menu">
+      <button class="btn btn-success btn-lg start">Start</button>
+    </div>
+  </div>
+  <div class="quiz">
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+      <h4 class="question"></h4>
+      <ul class="list-group">
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
+      </ul>
+      <div class="buttons">
+        <button class="btn btn-lg btn-secondary back">Previous</button>
+        <button class="btn btn-lg btn-primary next">Next</button>
+      </div>
+    </div>
+    <div class="div_score border-dark">
+      <h4><span class="score" style="color: green; font-size: 3em; font-weight: bold;">0</span><span style="color: red; font-size: 3em; font-weight: bold;">/20</span></h4>
+    </div>
+  </div>
+  <div class="results shadow-lg p-3 mb-5 bg-white rounded" style="display: none">
+    <div class="btn-group-custom">
+      <button class="btn btn-success btn-custom restart">Retake quiz</button>
+    </div>
+    <div class="score">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>Point/20</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">Your score</th>
+          <td class="userScorePoint"></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
